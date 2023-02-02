@@ -51,7 +51,6 @@ class ChooseLevelFragment : Fragment() {
             .commit()
     }
 
-
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
@@ -62,6 +61,5 @@ class ChooseLevelFragment : Fragment() {
         fun newInstance(): ChooseLevelFragment {
             return ChooseLevelFragment()
         }
-
     }
 }
